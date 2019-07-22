@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#calculator{
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  margin: 50px auto;
+  height: 400px;
+  width: 300px;
+}
+
+#inputOutput{
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin: 7px auto;
+  font-size: 30px;
+  padding: 10px;
+  box-shadow: 4px 0px 12px black inset;
+  text-align: right;
+  top: 10px;
+}
+
+#inputOutput {
+  text-align: right;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.btn-group{
+  margin: 2px;
+}
+
+.keys{
+  width: 100%;
+  height: 350px;
+  margin-top: 90px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /*height: 100%;*/
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.buttons_div{
+  display: flex;
+  /*flex-direction: column;*/
+  width: 100%;
+  /*height: 100%;*/
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btn{
+  width: 60px;
+  background: #ccc;
+  border: 1px solid #ccc;
+  margin: 2px;
+  height: 55px;
+  cursor: pointer;
+}
+
+
+.btn:hover{
+  background: orange;
+}
+
+.btn.focus,.btn:active.focus,.btn.active.focus {
+  outline: none;
+  background: orange;
+}
+
+.btn_C{
+  width: 100%;
+}
